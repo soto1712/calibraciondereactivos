@@ -1,0 +1,290 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+  float: right;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    
+    
+  }
+}
+  a{
+    color: white;
+   
+
+  }
+.App-header {
+
+  background-color: transparent;
+  min-height: 10vh;
+  display: block;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  word-spacing: 55pt;
+  text-align: right;
+
+  
+ 
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.select-css {
+  display: block;
+  font-size: 16px;
+
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+
+  padding: .4em 1.4em .3em .8em;
+  width: 700px;
+  max-width: 100%; 
+  box-sizing: border-box;
+ margin: 20px auto;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .65em auto, 100%;
+}
+
+
+
+
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none; background-color:transparent;}
+
+section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative; background-color:transparent;}
+
+
+.header1{width:100%; display:table; background-color:transparent; }
+#logo{float:left; font-size:24px; text-transform:uppercase; color:black; font-weight:600; padding:20px 0px;}
+nav{width:auto; float:right;}
+nav ul{display:table; float:right;}
+nav ul li{float:left;}
+nav ul li:last-child{padding-right:0px;}
+nav ul li a{color:black; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#2BC1F4; color:Black; transition: all 0.5s ease 0s;}
+nav ul li a:hover i{color:black; transition: all 0.5s ease 0s;}
+nav ul li a i{padding-right:10px; color:black; transition: all 0.5s ease 0s;}
+
+.toggle-menu ul{display:table; width:25px;}
+.toggle-menu ul li{width:100%; height:3px; background-color:#002e5b; margin-bottom:4px;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}
+
+input[type=checkbox], label{display:none;}
+
+
+/*Estilos de el nav en el celular*/
+@media only screen and (max-width: 980px) {
+
+  #logo{padding:0px;}
+  input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
+  input[type=checkbox]:fous{background:none;}
+  label {float:right; padding:8px 0px; display:inline-block; cursor:pointer; }
+  input[type=checkbox]:checked ~ nav {display:block;}
+  
+  nav{display:none; position:absolute; right:0px; top:53px; background-color:white; padding:0px; z-index:99; color: black;}
+  nav ul{width:auto;}
+  nav ul li{float:none; padding:0px; width:100%; display:table;}
+  nav ul li a{color:black; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+  nav ul li a i{color:black; padding-right:13px;}
+  }
+  
+  .registro{
+
+    /* Ubicación de la imagen */
+
+background-image: url(imagenes/registro.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: #f7f7f7;
+
+
+  }
+
+  .menu-imagen{
+
+    /* Ubicación de la imagen */
+
+background-image: url(imagenes/menu.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: #f7f7f7;
+
+
+  }
+
+  .sesion-imagen{
+
+    /* Ubicación de la imagen */
+
+background-image: url(imagenes/sesion2.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: #f7f7f7;
+
+
+  }
+
+  .p{
+
+    font-size: 22px;
+    
+    font-family: Berlin Sans FB;
+  }
+
+
+  .alta-imagen{
+
+    /* Ubicación de la imagen */
+
+background-image: url(imagenes/alta.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: #f7f7f7;
+
+
+  }
+
+  .examen-imagen{
+
+    /* Ubicación de la imagen */
+
+background-image: url(imagenes/examen.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: #f7f7f7;
+
+
+  }
