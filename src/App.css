@@ -21,7 +21,7 @@
    
 
   }
-.App-header {
+/*.App-header {
 
   background-color: transparent;
   min-height: 10vh;
@@ -36,7 +36,7 @@
 
   
  
-}
+}*/
 
 
 
@@ -81,7 +81,7 @@
 
 section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative; background-color:transparent;}
 
-
+/*
 .header1{width:100%; display:table; background-color:transparent; }
 #logo{float:left; font-size:24px; text-transform:uppercase; color:black; font-weight:600; padding:20px 0px;}
 nav{width:auto; float:right;}
@@ -99,9 +99,9 @@ nav ul li a i{padding-right:10px; color:black; transition: all 0.5s ease 0s;}
 
 input[type=checkbox], label{display:none;}
 
-
+*/
 /*Estilos de el nav en el celular*/
-@media only screen and (max-width: 980px) {
+/*@media only screen and (max-width: 980px) {
 
   #logo{padding:0px;}
   input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
@@ -114,7 +114,7 @@ input[type=checkbox], label{display:none;}
   nav ul li{float:none; padding:0px; width:100%; display:table;}
   nav ul li a{color:black; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
   nav ul li a i{color:black; padding-right:13px;}
-  }
+  }*/
   
   .registro{
 
@@ -261,6 +261,39 @@ background-color: #f7f7f7;
     /* Ubicación de la imagen */
 
 background-image: url(imagenes/examen.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: #f7f7f7;
+
+
+  }
+
+  .alumno-imagen{
+
+    /* Ubicación de la imagen */
+
+background-image: url(imagenes/alumno.jpg);
 
 /* Para dejar la imagen de fondo centrada, vertical y
 

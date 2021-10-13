@@ -1,37 +1,23 @@
 import React from 'react';
-import './App.css';
-import Menu1 from './Componentes/Menu1';
-import Iniciarsesion from "./Componentes/Iniciarsesion"
-import Registrarse from './Componentes/Registrarse';
-import './index.css';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import altareactivo from './Componentes/altareactivo';
-import examengen from './Componentes/examengen';
 
+import './App.css';
+import Menu23 from './Componentes/Menu2';
+import AppRouter from './Componentes/router/router';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-  return (
- 
-      <Router>      
+  return     (
+    
        <div className="App">   
-        <Menu1 />  
-        
-            <Switch>
-          <Route path={'/Iniciarsesion'} component={Iniciarsesion}></Route>    
-          <Route path={'/Registrarse'} component={Registrarse}></Route>
-          <Route path={'/altareactivo'} component={altareactivo}></Route>
-          <Route path={'/examengen'} component={examengen}></Route>
-            </Switch>
-
-
-        
-
+        <Menu23 /> 
+        <AppRouter/>     
+       
 
     </div>
-    </Router>
+    
      
-  );
+   );
 }
 
 export default App;

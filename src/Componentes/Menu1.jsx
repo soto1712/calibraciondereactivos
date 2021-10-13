@@ -23,7 +23,7 @@ import '../App.css';
 <li><a  href='/Registrarse'><i class="fas fa-users"></i>Registrarme</a></li>
 <li><a href="/altareactivo"><i class="fab fa-fort-awesome"></i>Nosotros</a></li>
 <li><a href="/examengen"><i class="fas fa-phone-square-alt"></i>Contacto</a></li>
-<li><a href="#gallery"><i class="fab fa-blogger"></i>Blog</a></li>
+<li><a href="/bienvenidoalumno"><i class="fab fa-blogger"></i>Blog</a></li>
 <li><a href="#contact"><i class="icon-phone"></i>Contact</a></li>
 </ul>
 </nav>
